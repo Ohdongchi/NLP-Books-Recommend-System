@@ -1,0 +1,8 @@
+auth controller
+
+
+"auth/login" 요청 보냄 ->   @UseGuards(AuthGuard("local")) 가 캐치해서 local.strategy.ts 를 실행 
+-> 파라미터로 전달받은 email, password를 가져와서 validate 실행 -> auth service ValidateUser를 실행하여 user가 존재하는지 판단
+-> 존재하면 user를 req.user를 생성하여 반환  만약 존재하지 않다면  "new UnauthorizedException()" 를 실행하여 status code 401로 넘겨버림
+-> 리턴 받은 req.user를 authService의 login 함수로 할당 -> payload 객체 생성 후 jwtService.sign 함수에 payload 객체 할당
+-> 

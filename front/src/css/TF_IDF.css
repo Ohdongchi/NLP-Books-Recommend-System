@@ -1,0 +1,22 @@
+/* TF_IDF */
+.TFIDF_Container {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+.TFIDF_Container>a>.TFIDF_item {
+  /* flex:1; */
+  width: 10em;
+}
+
+.TFIDF_Container>a>.TFIDF_item>p {
+  width: 8em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.TFIDF_Container>a>.TFIDF_item>img {
+  height: 170px;
+}

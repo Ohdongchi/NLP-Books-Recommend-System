@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  padding: 1.5vh 0;
+  margin-bottom: 50px;
+}
+
+.container>.content_title {
+  display: block;
+  width: 80%;
+  height: auto;
+  line-height: 4ch;
+  margin: 0 auto;
+  padding: 8px 0;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.box {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 20vh;
+  /* background-color: rebeccapurple; */
+}
+
+.image_box {
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.image_box>div {
+  flex: 1;
+  height: 20vh;
+  text-align: center;
+}
+
+.image_box>div>a>img {
+  display: inline-block;
+  width: 130px;
+  height: 150px;
+  margin-bottom: 3px;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+.image_box>div>a>p {
+  width: 130px;
+  height: 28px;
+  line-height: 13px;
+  font-size: 11px;
+  margin: 1px auto 1px auto;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.prev {
+  width: 3em;
+  height: 20vh;
+  line-height: 20vh;
+  float: left;
+  cursor: pointer;
+}
+
+div.prev>span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.prev:hover {
+  background-color: rgba(160, 160, 160, 0.25);
+}
+
+div.next {
+  width: 3em;
+  height: 20vh;
+  line-height: 20vh;
+  float: right;
+  cursor: pointer;
+}
+
+div.next>span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.next:hover {
+  background-color: rgba(160, 160, 160, 0.25);
+}

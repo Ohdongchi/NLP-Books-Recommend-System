@@ -1,0 +1,47 @@
+
+/* 마이페이지 메뉴 */
+.Mypage {
+    max-width:80%;
+    margin:0 auto;
+}
+.Mypage_menu {
+    border:1px solid black;
+    border-radius: 5px;
+    padding:1vh 1vw;
+    margin-bottom: 0.85vh;
+}
+
+.Mypage_menu > table > tr > td{
+    width:6em;
+    padding:0 15px;
+}
+
+/* 책 목록 */
+.Mypage_comment_Books_List_section {
+    display: block;
+    box-sizing: border-box;
+    width:100%;
+}
+.Mypage_comment_Books_List_section > h2 {
+    margin-bottom:2vh;
+}
+.Mypage_comment_Books_List_section > section > div  {
+    display: block;
+    padding-bottom: 0.7vh;
+    margin-bottom: 1.5vh;
+    border-bottom:1px dotted black;
+}
+.Mypage_comment_Books_List_section > section > div > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right:1rem;
+}
+.Mypage_comment_Books_List_section > section > div > div > img {
+    display: inline-block;
+    width:20vw;
+    height:20vh;
+}
+
+.Mypage_comment_Books_List_section > section > div > div:last-child > h4{
+    padding-bottom: 1vh;
+}

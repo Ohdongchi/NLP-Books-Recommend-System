@@ -1,0 +1,81 @@
+.Login-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(117, 117, 117, 0.75);
+    z-index: 1;
+}
+.Login-box {
+    position: relative;
+    z-index: 10;
+    max-width: 360px;
+    margin: 20vh auto 0 auto;
+    box-shadow: 0 0 15px 5px rgba(38, 33, 39, 0.733);
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgba(94, 88, 88, 0.62);
+}
+
+.Login-title {
+    padding:5px 15px;
+    color:rgba(238, 169, 252, 0.856);
+}
+
+.Login-box>form {
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 35px;
+}
+
+.Login-box>form>div {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.Login-box>form>div>* {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Login-box>form>div>label {
+    font-weight: 550;
+}
+
+.Login-box>form>div>input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.Login-form-submit>input {
+    border-radius: 15px;
+    border: 0.1px solid black;
+    background-color: lightdark;
+}
+
+.Login-form-submit>input:active {
+    background-color: rgba(205, 243, 245, 0.85);
+}
+
+#EmailAuth>* {
+    margin-bottom: 0.5vh;
+}
+
+#EmailAuth>label {
+    font-weight: 550;
+}
+
+#EmailAuth>input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#EmailAuth>input:last-child {
+    border-radius: 5px;
+    border: 1px solid black;
+}

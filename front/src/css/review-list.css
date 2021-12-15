@@ -1,0 +1,14 @@
+.review-list {
+    margin-top:5vh;
+}
+.review-list > div{
+    margin:13px 0;
+    padding:5px 8px;
+    border:0.1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.review-list > div > div {
+    margin-top:13px; 
+}

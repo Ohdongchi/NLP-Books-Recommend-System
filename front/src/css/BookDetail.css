@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.BookDetail {
+    width: 80%;
+    margin: 10px auto 0 auto;
+}
+
+.detail-header>* {
+    margin-bottom: 10px;
+}
+
+.detail-book-intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail-book-intro>* {
+    height: 45vh;
+}
+
+.detail-book-intro>*:first-child {
+    margin-right: 5px;
+}
+
+.detail-book-intro>*:last-child {
+    height: 45vh;
+    margin-left: 5px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+
+.detail-book-intro-label {
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.detail-book-info1 {
+    margin: 10px;
+    background-color: rgb(222, 255, 169);
+}
+
+.detail-book-info1>li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.detail-book-info1>li:nth-child(2n) {
+    width: 1px;
+    height: 10px;
+    line-height: 50px;
+    background-color: black;
+}
+
+.detail-book-info2 {
+    margin: 10px;
+    background-color: rgb(255, 248, 154);
+}
+
+.detail-book-info2>li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.detail-book-info2>li:nth-child(2n) {
+    width: 1px;
+    height: 10px;
+    line-height: 50px;
+    background-color: black;
+}
+
+/* review */
+.reivew-container {
+    margin: 10px 0;
+}
+
+#review-form {
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 10px auto;
+}
+#review-form>#review-form-input-box {
+    position: relative;
+    flex-grow: 1;
+    width:100%;
+    height: inherit;
+    line-height: inherit;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#review-form>#review-form-input-box > input{
+    width:90%;
+    padding: 8px 1rem;
+    height: inherit;
+    line-height:30px;
+    border: none;
+    /* outline: none; */
+}
+
+#review-form>#review-form-input-box > span {
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+#review-form>input:last-child {
+    width: 8rem;
+}
+
+/* 평점 */
+
+.review_avg {
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    background-color: rgba();
+}

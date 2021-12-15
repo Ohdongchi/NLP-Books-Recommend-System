@@ -1,0 +1,26 @@
+/* Doctovec */
+.Doctovec_title {
+    margin: 5px 0;
+}
+
+.Doctovec_item {
+    width: auto;
+}
+
+.Doctovec_item_div {
+    /* flex:1; */
+    width: 10em;
+}
+
+.Doctovec_item_div>a>p {
+    width: 8em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Doctovec_item_div>a>img {
+    height: 170px;
+}
+
+/* test */
